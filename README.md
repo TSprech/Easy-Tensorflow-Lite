@@ -3,6 +3,7 @@ A much simpler approach to the basics of implementing machine learning on microc
 
 - [Easy Tensorflow Lite](#easy-tensorflow-lite)
   - [Circuit](#circuit)
+    - [*This is not intended to be a full delve into Tensorflow Lite or Micro. This is meant to be a simple, straightforward example of Tensorflow with no extras*](#this-is-not-intended-to-be-a-full-delve-into-tensorflow-lite-or-micro-this-is-meant-to-be-a-simple-straightforward-example-of-tensorflow-with-no-extras)
   - [Usage](#usage)
     - [Programming Knowledge](#programming-knowledge)
       - [Python](#python)
@@ -18,7 +19,7 @@ A much simpler approach to the basics of implementing machine learning on microc
 
 This circuit is one of the simplest examples of machine learning. It takes in a button input and outputs to a corresponding LED. This model is designed such that 0 corresponds to 1, 1 to 2, and 2 to 0. While this could be accomplished by much simpler methods, it is intended to be an easier start into training, exporting, and loading a custom Tensorflow model.
 
-*This is not intended to be a full delve into Tensorflow Lite or Micro. This is meant to be a simple, straightforward example of Tensorflow with no extras*
+### *This is not intended to be a full delve into Tensorflow Lite or Micro. This is meant to be a simple, straightforward example of Tensorflow with no extras*
 
 ## Usage
 ### Programming Knowledge
@@ -47,7 +48,7 @@ Required once the model is created to allow it to run on microcontrollers
   - Arduino
     - General board IO
 - Other Knowledge
-    - C++ Classes - It is important to understand how they work and how to implement
+    - C++ Classes - It is important to understand how they work and how to implement them
 
 ### PlatformIO Setup
 To get the SparkFun Artemis boards installed into PlatformIO, follow the instructions on this [repository](https://github.com/nigelb/platform-apollo3blue).
