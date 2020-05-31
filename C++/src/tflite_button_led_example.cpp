@@ -32,6 +32,7 @@ void setup() {
   Buttons.Button_Setup();  // Set all buttons as input and LEDs as outputs
 
   Serial.begin(9600);  // Start serial at 9600 baud
+  while(!Serial);
 
   // Load the model
   Serial.println("Loading Tensorflow model");
